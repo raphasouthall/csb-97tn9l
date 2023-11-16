@@ -1,0 +1,113 @@
+body,
+html {
+  margin: 0;
+  font-family: "Founders Grotesk Regular", sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Medium";
+  src: url("../fonts/founders-grotesk-web-medium.woff2") format("woff2");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Italic";
+  src: url("../fonts/founders-grotesk-web-regular-italic.woff2") format("woff2");
+  font-weight: regular;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Regular";
+  src: url("../fonts/founders-grotesk-web-regular.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 6rem;
+  z-index: 0;
+}
+
+.logo-img {
+  height: 4rem;
+}
+
+.purple {
+  width: 100%;
+  height: 0vh;
+}
+
+.purple-img {
+  position: relative;
+  height: 60vh;
+  margin-left: 65vw;
+  margin-top: -5rem;
+}
+
+.main {
+  position: relative;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 1;
+  margin-top: 10vh;
+}
+
+.text_1 {
+  font-size: 2.5rem;
+  text-align: left;
+  font-family: "Founders Grotesk Medium";
+}
+
+.text_2 {
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: normal;
+  font-family: "Founders Grotesk Regular";
+  margin-bottom: 25vh;
+}
+
+.buttons {
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.button_purple {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: fill;
+  text-align: center;
+  background-color: #3e37c9;
+  color: white;
+}
+
+.button_purple:hover {
+  background-color: #1b12c5;
+  color: white;
+}
+
+.pink {
+  width: 100%;
+  height: 0vh;
+}
+
+.pink-img {
+  position: relative;
+  margin-left: -50vw;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/styles3.css" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="header">
+      <img id="homeButton" class="logo-img" src="./assets/logo.svg" alt="SVG Image" />
+    </div>
+    <div class="purple">
+      <img class="purple-img" src="./assets/blue.svg" />
+    </div>
+    <div class="main">
+      <div class="text_1">
+        Ok!
+      </div>
+      <div class="text_2">
+        Please tell us more
+      </div>
+      <div class="buttons">
+        <div class="button_purple">
+          <link href="">Synergy Portal</link>
+        </div>
+      </div>
+    </div>
+    <div class="pink">
+      <img class="pink-img" src="./assets/purple2.svg" />
+    </div>
+    <script>
+      document
+        .getElementById("homeButton")
+        .addEventListener("click", function () {
+          window.location.href = "index.html"; // Change to your desired link
+        });
+    </script>
+  </body>
+</html>

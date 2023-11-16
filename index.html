@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Synergy</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo-img" src="./assets/logo.svg" alt="SVG Image" />
+    </div>
+    <div class="purple">
+      <img class="purple-img" src="./assets/purple.svg" />
+    </div>
+    <div class="main">
+      <div class="text">
+        Hi
+        <br />
+        How can we help?
+      </div>
+      <div class="buttons">
+        <div id="linkButton1" class="button_purple">
+          I'm a Synergy client
+        </div>
+        <div id="linkButton2" class="button_pink">
+          I'm a Synergy Employee
+        </div>
+        <div id="linkButton3" class="button_blue">
+          I'm neither of the above!
+        </div>
+      </div>
+    </div>
+    <div class="pink">
+      <img class="pink-img" src="./assets/pink.svg" />
+    </div>
+    <script>
+      document
+        .getElementById("linkButton1")
+        .addEventListener("click", function () {
+          window.location.href = "client.html"; // Change to your desired link
+        });
+    </script>
+    <script>
+      document
+        .getElementById("linkButton2")
+        .addEventListener("click", function () {
+          window.location.href = "random.html"; // Change to your desired link
+        });
+    </script>
+    <script>
+      document
+        .getElementById("linkButton3")
+        .addEventListener("click", function () {
+          window.location.href = "random.html"; // Change to your desired link
+        });
+    </script>
+  </body>
+</html>

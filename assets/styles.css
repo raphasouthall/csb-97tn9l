@@ -1,0 +1,136 @@
+body,
+html {
+  margin: 0;
+  font-family: "Founders Grotesk Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Medium";
+  src: url("../fonts/founders-grotesk-web-medium.woff2") format("woff2");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Italic";
+  src: url("../fonts/founders-grotesk-web-regular-italic.woff2") format("woff2");
+  font-weight: regular;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Founders Grotesk Regular";
+  src: url("../fonts/founders-grotesk-web-regular.woff2") format("woff2");
+  font-weight: regular;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  height: 5vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  /* margin-bottom: 0rem; */
+  background-color: white;
+}
+
+.logo-img {
+  height: 4rem;
+}
+
+.purple {
+  height: 15vh;
+  text-align: right;
+}
+
+.purple-img {
+  height: 10vh;
+  position: relative;
+}
+
+.main {
+  position: relative;
+  /* width: 100vw; */
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 3rem;
+  z-index: 1;
+}
+
+.text {
+  height: 20vh;
+  font-size: 2.5rem;
+  text-align: left;
+  /* margin-left: 2rem; */
+  font-family: "Founders Grotesk Medium";
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.button_purple {
+  /* padding: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: fill;
+  text-align: center;
+  background-color: #3e37c9;
+  color: white;
+}
+
+.button_purple:hover {
+  background-color: #1b12c5;
+  color: white;
+}
+
+.button_pink {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: fill;
+  text-align: center;
+  background-color: #f62585;
+  color: white;
+}
+
+.button_pink:hover {
+  background-color: #c7015d;
+  color: white;
+}
+
+.button_blue {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: fill;
+  text-align: center;
+  background-color: #4cc9f0;
+  color: white;
+}
+
+.button_blue:hover,
+.button_blue:active {
+  background-color: #0497c4;
+  color: white;
+}
+
+.pink {
+  height: 15vh;
+  text-align: left;
+}
+
+.pink-img {
+  height: 20vh;
+  position: relative;
+}
